@@ -1,0 +1,9 @@
+D:\Concursuri\Finland\Finland\obj\Debug\Finland.csprojAssemblyReference.cache
+D:\Concursuri\Finland\Finland\obj\Debug\Finland.csproj.CoreCompileInputs.cache
+D:\Concursuri\Finland\Finland\bin\Debug\Finland.exe.config
+D:\Concursuri\Finland\Finland\bin\Debug\Finland.exe
+D:\Concursuri\Finland\Finland\bin\Debug\Finland.pdb
+D:\Concursuri\Finland\Finland\bin\Debug\Jint.dll
+D:\Concursuri\Finland\Finland\obj\Debug\Finland.csproj.CopyComplete
+D:\Concursuri\Finland\Finland\obj\Debug\Finland.exe
+D:\Concursuri\Finland\Finland\obj\Debug\Finland.pdb

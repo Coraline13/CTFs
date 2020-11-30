@@ -1,0 +1,7 @@
+D:\Concursuri\Nigeria\Nigeria\bin\Debug\Nigeria.exe.config
+D:\Concursuri\Nigeria\Nigeria\bin\Debug\Nigeria.exe
+D:\Concursuri\Nigeria\Nigeria\bin\Debug\Nigeria.pdb
+D:\Concursuri\Nigeria\Nigeria\obj\Debug\Nigeria.csprojAssemblyReference.cache
+D:\Concursuri\Nigeria\Nigeria\obj\Debug\Nigeria.csproj.CoreCompileInputs.cache
+D:\Concursuri\Nigeria\Nigeria\obj\Debug\Nigeria.exe
+D:\Concursuri\Nigeria\Nigeria\obj\Debug\Nigeria.pdb

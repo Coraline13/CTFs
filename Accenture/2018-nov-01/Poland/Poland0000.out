@@ -1,0 +1,38 @@
+<html>
+<head>
+<link rel="stylesheet" href="/styles.css">
+</head>
+<title></title>
+<body>
+<body bgcolor="#000000">
+<style>
+.whitetext{
+	color: white;
+}
+</style>
+<center>
+<h1 class="whitetext">Keypad</h1>
+<br>
+<br>
+
+<div class="playground">
+
+	<!-- All you need to play with -->
+	<div class="numpad">
+		<button class="button" onclick="window.location=this.value+'/'" value="1">1</button>
+		<button class="button" onclick="window.location=this.value+'/'" value="2">2</button>
+		<button class="button" onclick="window.location=this.value+'/'" value="3">3</button>
+		<button class="button" onclick="window.location=this.value+'/'" value="4">4</button>
+		<button class="button" onclick="window.location=this.value+'/'" value="5">5</button>
+		<button class="button" onclick="window.location=this.value+'/'" value="6">6</button>
+		<button class="button" onclick="window.location=this.value+'/'" value="7">7</button>
+		<button class="button" onclick="window.location=this.value+'/'" value="8">8</button>
+		<button class="button" onclick="window.location=this.value+'/'" value="9">9</button>
+		<button class="button" onclick="window.location=this.value+'/'" value="0">0</button>
+	</div>
+	
+</div>
+</center>
+<!-- 4 = len(pass)-->
+</body>
+</html>
