@@ -1,3 +1,3 @@
-# CTF
+# CTF writeups
 
-A collection of all of the CTF challenges I have written for CTFs
+A collection of all of the CTF challenges I've participated to.

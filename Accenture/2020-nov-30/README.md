@@ -1,5 +1,5 @@
 # Accenture CTF 2020
-###### 30 nov 2020
+###### 30 nov 2020 — Ciupi & Riciu
 
 ## Challenges
 
@@ -14,6 +14,8 @@
     - [ ] Simplicity is the key!
     - [ ] \#stayHome
     - [ ] Do you know your crypto?
+    - [ ] Codename SPRIS: Solar Powered Ray in Space
+    - [ ] Recycling key material
     
 * Stenography
     - [x] You know the rules
