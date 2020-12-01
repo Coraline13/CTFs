@@ -1,7 +1,7 @@
 # Day 14 - That's all, folks!
 
 * **Event:** HackTM Meta 2020
-* **Category:** Crypto
+* **Category:** Steganography
 * **Points:** 275
 * **Difficulty:** hard
 * **Tools used:** base64 decoder/encoder
@@ -58,4 +58,5 @@ r        (space)  ^^
 The same rules apply to the lines with `"=="` at the end. The difference is that twice as many hidden bits can fit in there.
 
 ### Flag
- 
+
+`THANK YOU`

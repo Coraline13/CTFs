@@ -3,7 +3,7 @@
 * **Event:** HackTM Meta 2020
 * **Category:** Miscellaneous
 * **Points:** 44
-* **Difficulty:** medium
+* **Difficulty:** Medium
 * **Tools used:** -
 
 ### Description
@@ -12,7 +12,9 @@ Sebastian, a volunteer, passes by and you ask him for the WIFI password. He tell
 
 Rudely enough, he hands you a USB stick and leaves.
 
-**Note:** The scoring for this challenge is dynamic.
+**Note:**
+
+The scoring for this challenge is dynamic.
 
 ### Attachment
 

@@ -1,0 +1,9 @@
+coordinates(x, y) give the starting position of a point: 
+ a negative value of x shows how far left the point is
+ a positive value of x shows how far right the point is
+ a negative value of y shows how far up the point is  
+ a positive value of y shows how far down the point is
+
+movement(x, y) shows how a point moves relative to its position.
+
+For example: coordinates(5, 5) movement(1, -1). The point is moving right and up. After 3 steps it will be at (8, 2).
