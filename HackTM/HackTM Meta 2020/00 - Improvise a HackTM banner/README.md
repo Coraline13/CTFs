@@ -1,4 +1,4 @@
-# Improvise a HackTM banner
+# Day 0 - Improvise a HackTM banner
 
 * **Event:** HackTM Meta 2020
 * **Category:** Miscellaneous

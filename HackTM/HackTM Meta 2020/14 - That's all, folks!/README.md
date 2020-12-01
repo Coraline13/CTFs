@@ -1,10 +1,10 @@
-# That's all, folks!
+# Day 14 - That's all, folks!
 
 * **Event:** HackTM Meta 2020
 * **Category:** Crypto
 * **Points:** 275
-* **Difficulty:** 
-* **Tools used:** 
+* **Difficulty:** hard
+* **Tools used:** base64 decoder/encoder
 
 ### Description
 
