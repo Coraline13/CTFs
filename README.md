@@ -1,3 +1,3 @@
-# CTF writeups
+# CTFs & algo write-ups
 
-A collection of all of the CTF challenges I've participated to.
+A collection of write-ups and solutions for some of the CTF challenges and algo contests I've participated in.
