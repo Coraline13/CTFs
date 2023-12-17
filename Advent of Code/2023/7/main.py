@@ -1,4 +1,11 @@
-CARDS = {c: i + 2 for i, c in enumerate('23456789TJQKA')}
+CARDS = {c: i for i, c in enumerate('23456789TJQKA', start=2)}
+FIVE_OF_A_KIND = 5
+FOUR_OF_A_KIND = 4
+FULL_HOUSE = 3
+THREE_OF_A_KIND = 2
+TWO_PAIR = 1
+ONE_PAIR = 0
+HIGH_CARD = 0
 
 
 def read_file_contents(file_contents):
@@ -15,24 +22,24 @@ def read_file_contents(file_contents):
 
 def get_win_type(counter_results):
     if max(counter_results) == 5:
-        return 5
+        return FIVE_OF_A_KIND
     elif max(counter_results) == 4:
-        return 4
+        return FOUR_OF_A_KIND
     elif max(counter_results) == 3 and 2 in counter_results:
-        return 3
+        return FULL_HOUSE
     elif max(counter_results) == 3:
-        return 2
+        return THREE_OF_A_KIND
     elif list(counter_results).count(2) == 2:
-        return 1
+        return TWO_PAIR
     elif max(counter_results) == 2:
-        return 0
+        return ONE_PAIR
     else:
-        return -1
+        return HIGH_CARD
 
 
 def compute_total_winnings(hands):
-    ranking = sorted(hands, key=lambda x: (x['win_type'], *(CARDS[x['hand'][i]] for i in range(5))))
-    return sum((i + 1) * r['bid'] for i, r in enumerate(ranking))
+    ranking = sorted(hands, key=lambda x: (x['win_type'], *(CARDS[c] for c in x['hand'])))
+    return sum(i * r['bid'] for i, r in enumerate(ranking, start=1))
 
 
 def part1(file_contents):
@@ -61,9 +68,9 @@ def part2(file_contents):
             jokers = hand['hand'].count('J')
 
             for _ in range(jokers):
-                if hand['win_type'] in [-1, 3, 4]:
+                if hand['win_type'] in [HIGH_CARD, FOUR_OF_A_KIND]:
                     hand['win_type'] += 1
-                elif hand['win_type'] in [0, 1, 2]:
+                elif hand['win_type'] in [ONE_PAIR, TWO_PAIR, THREE_OF_A_KIND]:
                     hand['win_type'] += 2
 
     return compute_total_winnings(hands)
